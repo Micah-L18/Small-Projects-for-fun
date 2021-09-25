@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421fc621-b268-4be1-aa8c-e7433355206d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Masterframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Masterframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberGuessingGame/Masterframe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Masterframe" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Masterframe" />
+      <option name="MAIN_CLASS_NAME" value="NumberGuessingGame.Masterframe" />
       <module name="NumberGuesser" />
       <method v="2">
         <option name="Make" enabled="true" />

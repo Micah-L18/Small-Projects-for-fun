@@ -1,4 +1,4 @@
-import jdk.jfr.Event;
+package NumberGuessingGame;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -61,6 +61,7 @@ public class Masterframe {
                 public void actionPerformed(ActionEvent e){
 
                     String Playerguess = guess.getText();
+
                     System.out.println(Playerguess);
 
                 }
