@@ -3,8 +3,11 @@ package NumberGuessingGame;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 public class Masterframe {
+
+    static int random_int;
 
     public static void main(String[]args){
 
@@ -43,9 +46,10 @@ public class Masterframe {
 
         JLabel test = new JLabel();
             test.setVisible(true);
-            test.setBounds(225,225,50,50);
+            test.setBounds(10,10,150,50);
             test.setText("Lets Try and Guess");
             GamePanel.add(test);
+
 
         JTextArea guess = new JTextArea();
             guess.setVisible(true);
@@ -60,11 +64,18 @@ public class Masterframe {
             check.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent e){
 
+                    random_int = (int)Math.floor(Math.random()*(999-1+1)+1);
+
+                    int randomNum = random_int;
+
                     String Playerguess = guess.getText();
 
-                    System.out.println(Playerguess);
+                    GuessCheck checkGuess = new GuessCheck();
+
+                    checkGuess.checkNum(randomNum,Playerguess);
 
                 }
+
             });
 
     }
