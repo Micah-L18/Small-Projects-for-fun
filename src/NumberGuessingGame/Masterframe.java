@@ -40,7 +40,8 @@ public class Masterframe {
 
                         StartPanel.setVisible(false);
                         GamePanel.setVisible(true);
-
+                        random_int = (int)Math.floor(Math.random()*(999-1+1)+1);
+                        System.out.println("pressed play"+random_int);
                     }
                 });
 
@@ -56,6 +57,20 @@ public class Masterframe {
             guess.setBounds(225,200,100,30);
             GamePanel.add(guess);
 
+        JButton newgame = new JButton();
+        newgame.setVisible(true);
+        newgame.setText("play");
+        newgame.setBounds(1,350,120,50);
+            GamePanel.add(newgame);
+        newgame.addActionListener(new ActionListener(){
+                public void actionPerformed(ActionEvent e){
+
+                    random_int = (int)Math.floor(Math.random()*(999-1+1)+1);
+                    System.out.println("pressed play in game"+random_int);
+                }
+
+        });
+
         JButton check = new JButton();
             check.setVisible(true);
             check.setText("Check");
@@ -64,14 +79,10 @@ public class Masterframe {
             check.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent e){
 
-                    random_int = (int)Math.floor(Math.random()*(999-1+1)+1);
-
                     int randomNum = random_int;
-
                     String Playerguess = guess.getText();
 
                     GuessCheck checkGuess = new GuessCheck();
-
                     checkGuess.checkNum(randomNum,Playerguess);
 
                 }
