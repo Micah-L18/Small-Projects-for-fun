@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421fc621-b268-4be1-aa8c-e7433355206d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NumberGuesser/NumberGuessingGame/Masterframe$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NumberGuesser/NumberGuessingGame/Masterframe$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NumberGuesser/NumberGuessingGame/Masterframe$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NumberGuesser/NumberGuessingGame/Masterframe$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NumberGuesser/NumberGuessingGame/Masterframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NumberGuesser/NumberGuessingGame/Masterframe.class" afterDir="false" />
